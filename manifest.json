@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+   
+    "name": "HIC Jira enhancements",
+    "version": "0.1.0",
+    "description": "Enhancements to HIC Jira",
+   
+    "content_scripts": [{      
+      "js": ["content.js"],
+      "matches": ["https://jira.hic.dundee.ac.uk/*"]
+    }]
+   
+  }
+  
